@@ -1,6 +1,8 @@
 dev-setup
 ============
 
+`./.dots osxprep brew osx`
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/donnemartin/dev-setup-resources/master/res/repo-header.gif">
 </p>
