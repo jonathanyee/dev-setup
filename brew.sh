@@ -174,3 +174,21 @@ brew install git-absorb
 
 # Remove outdated versions from the cellar.
 brew cleanup
+
+# make fish shell default
+echo /usr/local/bin/fish | sudo tee -a /etc/shells
+chsh -s /usr/local/bin/fish
+
+#install omyfish
+curl -L https://get.oh-my.fish | fish
+#install space theme
+omf install spacefish
+
+# powerline fonts
+git clone https://github.com/powerline/fonts.git --depth=1
+# install
+cd fonts
+./install.sh
+# clean-up a bit
+cd ..
+rm -rf fonts
